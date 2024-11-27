@@ -18,13 +18,6 @@ const choicesList = [
       'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/paper-image.png',
   },
 ]
-const App = () => {
-  return (
-  <div>
-    <div dangerouslySetInnerHTML={{ __html: comment }} />
-    <Game choicesList={choicesList} />
-  </div>
-)
-}
+const App = () => <Game choicesList={choicesList} />
 
 export default App
