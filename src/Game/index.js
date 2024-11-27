@@ -129,11 +129,11 @@ class Game extends Component {
         <ScoreContainer>
           <ItemsContainer>
             <Heading>
-              ROCK
+              Rock
               <br />
-              PAPER
+              Paper
               <br />
-              SCISSORS
+              Scissors
             </Heading>
           </ItemsContainer>
           <ScoreCardContainer>
