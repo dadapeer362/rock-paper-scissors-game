@@ -18,7 +18,8 @@ const choicesList = [
       'https://assets.ccbp.in/frontend/react-js/rock-paper-scissor/paper-image.png',
   },
 ]
-
+let a = "testing a"
+let b = "testing b"
 const App = () => <Game choicesList={choicesList} />
 
 export default App
